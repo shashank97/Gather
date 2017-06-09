@@ -16,4 +16,11 @@ class Signup1VC: UIViewController
     super.viewDidLoad()
     }
     //viewDidLoad
+    
+    //IBActions
+    @IBAction func loginPressed (_ sender: Any)
+    {
+        dismiss(animated: true, completion: nil)
+    }
+    //IBActions
 }

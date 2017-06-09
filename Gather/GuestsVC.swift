@@ -8,7 +8,7 @@
 
 import UIKit
 
-class LegalVC: UIViewController
+class GuestsVC: UIViewController
 {
     //viewDidLoad
     override func viewDidLoad()
@@ -16,4 +16,11 @@ class LegalVC: UIViewController
         super.viewDidLoad()
     }
     //viewDidLoad
+    
+    //IBActions
+    @IBAction func backButtonPressed (_ sender: Any)
+    {
+        dismiss(animated: true, completion: nil)
+    }
+    //IBActions
 }

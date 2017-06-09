@@ -16,4 +16,11 @@ class PartyVC: UIViewController
         super.viewDidLoad()
     }
     //viewDidLoad
+    
+    //IBActions
+    @IBAction func backButtonPressed(_ sender: Any)
+    {
+        dismiss(animated: true, completion: nil)
+    }
+    //IBActions
 }
